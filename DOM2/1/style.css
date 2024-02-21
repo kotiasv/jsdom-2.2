@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.root {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.cat {
+    max-width: 200px;
+}
+
+.flexbox {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.cat-img,
+.cat-star {
+    object-fit: cover;
+}
+
+.cat-img {
+    width: 200px;
+    height: 200px;
+}
+
+.cat-star {
+    width: 14px;
+    height: 14px;
+}
+
+.cat-desc {
+    margin-top: 15px;
+}
