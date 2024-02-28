@@ -1,0 +1,44 @@
+ul {
+    list-style: none;
+    padding-left: 60px;
+}
+  
+.show::before {
+    content: "+";
+    position: absolute;
+    left: 10px;
+    vertical-align: -50%;
+}
+
+.hide::before {
+    content: "-";
+    position: absolute;
+    left: 10px;
+}
+
+.none::before {
+    content: "o";
+    height: 17px;
+    position: absolute;
+    left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.listNode p,
+.listNode a {
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    color: white;
+    background-color: rgb(230, 64, 64);
+    padding: 15px 0 15px 25px;
+    margin: 3px 0;
+    max-width: 250px;
+    border-left: 10px solid rgb(117, 33, 33);
+    border-right: 3px solid rgb(117, 33, 33);
+}
