@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Mouse Events</title>
+</head>
+
+<body>
+    <div class="root">
+        <section>
+            <h2>HTML Example</h2>
+            <input type="range">
+        </section>
+        <section>
+            <h2>JS Example with HTML and CSS stylesheet</h2>
+            <div class="flex">
+                <!-- With value wich represent the width -->
+                <div class="range">
+                    <p class="info number">
+                        0
+                    </p>
+                    <div class="content">
+                        <div class="slider">
+                            <div class="sliderLeft"></div>
+                        </div>
+                        <div class="point"></div>
+                    </div>
+                </div>
+                <!-- With percentage -->
+                <div class="range">
+                    <p class="info percent">
+                        0%
+                    </p>
+                    <div class="content">
+                        <div class="slider">
+                            <div class="sliderLeft"></div>
+                        </div>
+                        <div class="point"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script type="module" src="./build/index.js"></script>
+</body>
+
+</html>

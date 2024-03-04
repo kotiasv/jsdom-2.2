@@ -1,0 +1,60 @@
+:root {
+    --pointSize: 20px;
+    --pointLeftPosition: calc(0px - var(--pointSize) / 2);
+    --rangeWidth: 200px;
+    --rangeHeight: 5px;
+    --rangeColor: black;
+    --borderRadius: 10px;
+}
+
+.root,
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.point {
+    width: var(--pointSize);
+    height: var(--pointSize);
+    background-color: var(--rangeColor);
+    border-radius: 100%;
+    position: absolute;
+    left: var(--pointLeftPosition);
+}
+
+.slider {
+    width: var(--rangeWidth);
+    height: var(--rangeHeight);
+    border: 1px solid var(--rangeColor);
+    border-radius: var(--borderRadius);
+}
+
+.sliderLeft {
+    width: 0px;
+    height: var(--rangeHeight);
+    background-color: var(--rangeColor);
+    border-radius: var(--borderRadius);
+}
+
+.range {
+    display: flex;
+    align-items: center;
+    width: var(--rangeWidth);
+    height: var(--pointSize);
+    margin-left: 10px;
+    position: relative;
+}
+
+.info {
+    margin: 0;
+    position: absolute;
+    bottom: -20px;
+    left: var(--pointLeftPosition);
+    user-select: none;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
