@@ -9,5 +9,7 @@
 * Практические работы по теме DOM (2) - `/DOM2`
     + Практическая работа №2 - [`/DOM2/1`](https://kotiasv.github.io/jsdom-2.2/DOM2/1)
     + Практическая работа №3 - [`/DOM2/2`](https://kotiasv.github.io/jsdom-2.2/DOM2/2)
-* Практическая работа по теме Mouse Events - `/MouseEVents`
+* Практическая работа по теме Mouse Events - `/MouseEvents`
     + Практическая работа №4 - [`/MouseEvents`](https://kotiasv.github.io/jsdom-2.2/MouseEvents)
+* Практическая работа по теме Form Elements - `/FormElements`
+    + Практическая работа №5 - [`/FormElements`](https://kotiasv.github.io/jsdom-2.2/FormElements)
